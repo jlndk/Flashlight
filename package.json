@@ -1,0 +1,28 @@
+{
+  "name": "flashlight",
+  "version": "0.0.1",
+  "description": "Shed some light on your programs! Search through them with ease",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlndk/Flashlight.git"
+  },
+  "keywords": [
+    "search"
+  ],
+  "author": "Jonas Lindenskov Nielsen",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/jlndk/Flashlight/issues"
+  },
+  "homepage": "https://github.com/jlndk/Flashlight#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.0"
+  },
+  "dependencies": {
+    "fuzzysearch-js": "^0.2.0"
+  }
+}

@@ -44,7 +44,11 @@
 
             placeholder.innerHTML = best;
         }else {
-            placeholder.innerHTML = "Search";
+            if(query.value.trim() == "") {
+                placeholder.innerHTML = "Search";
+            }else {
+                placeholder.innerHTML = "";
+            }
         }
     }
 

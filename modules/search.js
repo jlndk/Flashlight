@@ -7,7 +7,7 @@ const wordCountFS = require('fuzzysearch-js/js/modules/WordCountFS');
 
 class Search {
     constructor() {
-        //Generate this dynamicly in another module
+        // @TODO: Generate this dynamicly in another module
         this.list = [{
             name: 'Google Chrome',
             path: 'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe'

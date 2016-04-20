@@ -41,7 +41,7 @@
     Input.onProgramsChanged = function(matches) {
         if(matches) {
             let best = matches[0].value.name;
-            console.log(best);
+
             placeholder.innerHTML = best;
         }else {
             placeholder.innerHTML = "Search";

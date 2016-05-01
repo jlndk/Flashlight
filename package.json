@@ -4,7 +4,7 @@
   "description": "Shed some light on your programs! Search through them with ease",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron main.js --enable-transparent-visuals --no-gpu"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
     "electron-prebuilt": "^0.37.0"
   },
   "dependencies": {
+    "electron-single-instance": "0.0.2",
     "fuzzysearch-js": "^0.2.0"
   }
 }

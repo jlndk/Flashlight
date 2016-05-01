@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    const Input = require('../../modules/input');
+    const Input = require('../../modules/renderer/input');
     const remote = require('remote');
 
     const window = remote.getCurrentWindow();
